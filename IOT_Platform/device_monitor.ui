@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>device_monitor</class>
+ <widget class="QWidget" name="device_monitor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(93, 196, 216);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" rowstretch="1,4,2" columnstretch="1,2,1">
+   <property name="spacing">
+    <number>1</number>
+   </property>
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{margin-top:0px;}
+QGroupBox:title{margin-top: 0px;}</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignHCenter|Qt::AlignTop</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/icon/00001.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{margin-top:0px;}
+QGroupBox::title{
+margin-top: 0px;
+font-size: 10px;
+font-weight: bold;
+color: rgb(16, 90, 154);
+}</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="label_title">
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/icon/101341FA(2).png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QGroupBox" name="groupBox_8">
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{margin-top:0px;}
+QGroupBox::title{
+font-size: 10px;
+font-weight: bold;
+color: rgb(16, 90, 154);
+}</string>
+     </property>
+     <property name="title">
+      <string>系统资源信息</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="spacing">
+         <number>1</number>
+        </property>
+        <property name="topMargin">
+         <number>2</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="styleSheet">
+           <string notr="true">font: 87 10pt &quot;Arial Black&quot;;</string>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="styleSheet">
+           <string notr="true">font: 87 10pt &quot;Arial Black&quot;;</string>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="styleSheet">
+           <string notr="true">font: 87 10pt &quot;Arial Black&quot;;</string>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox_10">
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{margin-top:0px;}
+QGroupBox::title{
+margin-top: 0px;
+font-size: 10px;
+font-weight: bold;
+color: rgb(16, 90, 154);
+}</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="3">
+    <widget class="QGroupBox" name="groupBox_9">
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{margin-top:0px;}
+QGroupBox::title{
+margin-top: 0px;
+font-size: 10px;
+font-weight: bold;
+color: rgb(16, 90, 154);
+}</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+  <zorder>groupBox_5</zorder>
+  <zorder>groupBox_8</zorder>
+  <zorder>label</zorder>
+  <zorder>label_title</zorder>
+  <zorder>groupBox_3</zorder>
+  <zorder>groupBox_9</zorder>
+  <zorder>groupBox_10</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

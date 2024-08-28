@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/window_close.png</file>
+        <file>icon/window_max.png</file>
+        <file>icon/window_min.png</file>
+        <file>icon/window_reduce.png</file>
+        <file>icon/iot_platform.png</file>
+        <file>icon/parameter_set.png</file>
+        <file>icon/system_set.png</file>
+        <file>icon/restart.png</file>
+        <file>icon/device_monitor.png</file>
+        <file>icon/data_query.png</file>
+        <file>icon/configuration.png</file>
+        <file>icon/net_info.png</file>
+        <file>icon/video_monitor.png</file>
+        <file>icon/11233.png</file>
+        <file>icon/103.png</file>
+        <file>icon/101341FA(2).png</file>
+        <file>icon/00001.png</file>
+    </qresource>
+</RCC>
